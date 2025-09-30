@@ -1,0 +1,24 @@
+# --- Frameworks de Agentes e Orquestração ---
+# Usando versões recentes e separadas para evitar conflitos de dependência
+langchain
+langchain-core>=0.2.0
+langgraph>=0.0.60
+
+# Para o modelo Gemini (Framework Google)
+google-genai 
+langchain-google-genai>=1.0.2
+
+# --- Bibliotecas de Data Science e EDA ---
+pandas>=2.2.0
+numpy
+matplotlib>=3.8.0 # Para a geração dos gráficos
+seaborn>=0.13.0    # Para a geração dos gráficos
+
+# --- Interface de Usuário ---
+streamlit>=1.36.0
+
+# --- Utilidades ---
+python-dotenv # Essencial para carregar a chave de API
+pydantic      # Usado internamente pelo LangChain/LangGraph
+tabulate
+numexpr
